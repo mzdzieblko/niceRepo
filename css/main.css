@@ -16,10 +16,7 @@ html {
   align-items: center;
   font-family: "Montserrat", sans-serif;
 }
-h1{
-  margin: 0;
-  padding: 0;
-}
+
 .card {
   width: 640px;
   background: #ffffff;
@@ -36,7 +33,7 @@ h1{
   grid-area: title;
   text-align: center;
   max-height: min-content;
-  font-size: 180px;
+  font-size: 11em;
   margin: 0;
   font-weight: 700;
 }
@@ -83,4 +80,25 @@ h1{
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+@media all and (min-width: 760px) {
+  .card__title {
+    font-size: 13em;
+  }
+}
+
+
+@media all and (max-width: 759px) {
+  .card__title {
+    font-size: 7em;
+  }
+}
+@media all and (max-width: 320px) {
+  .card__title {
+    font-size: 6em;
+  }
+  .card__item {
+    font-size: 1em;
+  }
 }
