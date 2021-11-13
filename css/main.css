@@ -58,6 +58,10 @@ html {
   margin-left: 60px;
 }
 
+.other{
+  max-width: 5em;
+}
+
 .input {
   margin-right: 8px;
   width: 24px;
@@ -81,6 +85,14 @@ html {
   justify-content: space-between;
   align-items: flex-start;
 }
+
+
+
+
+
+
+
+/*media */
 
 @media all and (min-width: 760px) {
   .card__title {
