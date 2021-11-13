@@ -104,7 +104,12 @@ html {
 @media all and (max-width: 759px) {
   .card__title {
     font-size: 7em;
+    
   }
+  .other{
+    width: 3em;
+  }
+
 }
 @media all and (max-width: 320px) {
   .card__title {
@@ -112,8 +117,5 @@ html {
   }
   .card__item {
     font-size: 1em;
-  }
-  .other{
-    max-width: 3em;
   }
 }
